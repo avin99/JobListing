@@ -1,0 +1,80 @@
+/* styles.css */
+
+/* Apply styles to the body and center the content */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Style the homepage heading and link */
+  h1 {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #0074d9;
+    font-weight: bold;
+  }
+  
+  /* Apply styles to the job listings page */
+  #jobListings {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+  }
+  
+  #jobListings h3 {
+    color: #333;
+    font-size: 1.5em;
+    margin-top: 0;
+  }
+  
+  #jobListings p {
+    color: #555;
+    font-size: 1em;
+    margin: 10px 0;
+  }
+  
+  /* Apply styles to the applicant profiles page */
+  #applicantProfiles {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+  }
+  
+  #applicantProfiles h3 {
+    color: #333;
+    font-size: 1.5em;
+    margin-top: 0;
+  }
+  
+  #applicantProfiles p {
+    color: #555;
+    font-size: 1em;
+    margin: 10px 0;
+  }
+  /* Add styles for job listings */
+.job-listing {
+    cursor: pointer; /* Make job listings look clickable */
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  
